@@ -1,5 +1,4 @@
 import { html } from "../src/lib.js";
-console.log('it works');
 const companiesViewTemplate = () => html`
 <div id="header">
   <div>
@@ -17,7 +16,7 @@ const companiesViewTemplate = () => html`
 </div>
 <div id="content">
 <div class="section" id="sectionTwo">
-    <div> <a href="https://app.eraclimate.com/emissions-estimator?gclid=Cj0KCQjw0tKiBhC6ARIsAAOXutknOjFw9fRornV8tUnGD6ennNsXE5bbRNLkcN-EDSjnkrIkBRj2e-gaAgaKEALw_wcB" target="_blank">Emissions Assistant</a> <a href="https://veskonik.github.io/CO2-calculator/" target="_blank">Carbon Footprint Calculator</a> <a href="">Energy Consumption</a> <a href="">Heating</a> <a href="">Water Management</a> <a href="">Waste Management</a>
+    <div> <a href="https://app.eraclimate.com/emissions-estimator?gclid=Cj0KCQjw0tKiBhC6ARIsAAOXutknOjFw9fRornV8tUnGD6ennNsXE5bbRNLkcN-EDSjnkrIkBRj2e-gaAgaKEALw_wcB" target="_blank">Emissions Assistant</a> <a href="https://veskonik.github.io/CO2-calculator/" target="_blank">Transportation</a> <a href="">Heating</a> <a href="">Cooling</a> <a href="">Electricity</a> <a href="">Water usage</a>
       <h4>Main activities of “Ecological Manifesto – ManEco” are:</h4>
     </div>
     <div class="figure"> <a href=""><img src="images/girl-hugging-the-globe.jpg" alt=""></a> <span></span> </div>
