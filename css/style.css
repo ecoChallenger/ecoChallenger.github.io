@@ -755,7 +755,8 @@ button {
     font-size: 14px;
     cursor: pointer;
     border-radius: 5px;
-	margin-left: 166px;
+    margin-left: 166px;
+    margin-bottom: 10px;
  }
  #sectionTwo > div.figure > h3 {
 	padding-left: 160px;
@@ -763,3 +764,4 @@ button {
  #sectionTwo > div.figure > div {
 	width: 90%;
  }
+
