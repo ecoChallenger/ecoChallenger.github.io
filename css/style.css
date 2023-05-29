@@ -7,33 +7,42 @@ body {
 	min-width: 950px;
 	padding: 0;
 }
+#content div#calcSection {
+	padding-bottom: 120px;
+ }
 a {
 	outline: none;
 }
+
 img {
 	border: 0;
 }
+
 p a {
 	color: #80662B;
 	font-style: italic;
 }
+
 #header {
 	background: url(../images/bg-header.gif) repeat-x top center;
 	height: 106px;
 	overflow: hidden;
 	width: 100%;
 }
+
 #header div {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 950px;
 }
+
 #header div div#logo {
 	float: left;
 	width: 400px;
 	height: 100px;
-	margin:0 55px 0 0;
+	margin: 0 55px 0 0;
 }
+
 #header div div#navigation {
 	background: url(../images/bg-navigation-right-curve.gif) no-repeat right top;
 	font-family: 'CarterOneRegular';
@@ -44,12 +53,14 @@ p a {
 	text-transform: lowercase;
 	width: 424px;
 }
+
 #header div div#navigation div {
 	background: url(../images/bg-navigation-left-curve.gif) no-repeat left top;
 	padding-left: 4px;
 	height: 63px;
 	width: auto;
 }
+
 #header div div#navigation div ul {
 	background: url(../images/bg-navigation.gif) repeat-x;
 	clear: both;
@@ -60,28 +71,35 @@ p a {
 	padding: 0;
 	min-width: 600px;
 }
+
 #header div div#navigation div ul li:first-child {
 	background: none;
 }
+
 #header div div#navigation div ul li {
 	background: url(../images/separator-navigation.gif) no-repeat center left;
 	float: left;
 	padding: 0 40px;
 }
+
 #header div div#navigation div ul li a {
 	color: #b99b5f;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #efd9c4;
 }
-#header div div#navigation div ul li.current a, #header div div#navigation div ul li a:hover {
+
+#header div div#navigation div ul li.current a,
+#header div div#navigation div ul li a:hover {
 	color: #2e5306;
 	text-shadow: 1px 1px 0 #f2fcd9;
 }
+
 #content {
 	background: url(../images/bg-headliner.gif) repeat top center;
 	height: auto;
 	width: 100%;
 }
+
 #content div#section {
 	background: url(../images/bg-headliner-top-shadow.jpg) no-repeat top center;
 	height: 365px;
@@ -91,13 +109,16 @@ p a {
 	position: relative;
 	width: 950px;
 }
-#content div#section div, #content div.section div {
+
+#content div#section div,
+#content div.section div {
 	background: none;
 	float: left;
 	margin-left: 0;
 	padding-top: 0;
 	width: 286px;
 }
+
 #content div#section div h1 {
 	color: #745b1b;
 	font-family: 'CarterOneRegular';
@@ -108,6 +129,7 @@ p a {
 	text-shadow: 1px 1px 0 #fff0d8;
 	width: auto;
 }
+
 #content div#section div p {
 	line-height: 21px;
 	margin: 0;
@@ -116,6 +138,7 @@ p a {
 	text-shadow: 1px 1px 0 #f4dcb6;
 	width: auto;
 }
+
 #content div#section div span {
 	background: none;
 	display: block;
@@ -127,6 +150,7 @@ p a {
 	top: 0;
 	width: auto;
 }
+
 #content div#section div span a {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 -303px;
 	color: #fdfdfb;
@@ -141,16 +165,22 @@ p a {
 	text-shadow: 1px 1px 0 #216b20;
 	width: 136px;
 }
+
 #content div#section div span a.first {
 	margin-left: 0;
 }
+
 #content div#section div#figure {
 	margin-left: 51px;
 	width: 612px;
 }
-#content div#section div#figure img, #content div div img, #content div#featured ul li img {
+
+#content div#section div#figure img,
+#content div div img,
+#content div#featured ul li img {
 	border: 3px solid #fff;
 }
+
 #content div#section div#figure span {
 	background: url(../images/bg-headliner-image-shadow.jpg) no-repeat center;
 	display: block;
@@ -158,9 +188,11 @@ p a {
 	margin-top: -6px;
 	width: 612px;
 }
+
 #content div#featured ul li p a {
 	color: #525252;
 }
+
 #content div#section span.background {
 	background: url(../images/bg-headliner-bottom-shadow.jpg) no-repeat center;
 	top: 328px;
@@ -169,12 +201,14 @@ p a {
 	position: relative;
 	width: 950px;
 }
+
 #content div#featured {
 	background: url(../images/bg-featured.gif) repeat-x top center;
 	height: 356px;
 	padding: 35px 0;
 	width: 100%;
 }
+
 #content div#featured ul {
 	color: #525252;
 	list-style: none;
@@ -183,14 +217,17 @@ p a {
 	padding: 0;
 	width: 950px;
 }
+
 #content div#featured ul li {
 	float: left;
 	margin-left: 53px;
 	width: 281px;
 }
+
 #content div#featured ul li.first {
 	margin-left: 0;
 }
+
 #content div#featured ul li span {
 	background: url(../images/bg-featured.jpg) no-repeat center;
 	display: block;
@@ -198,6 +235,7 @@ p a {
 	margin-top: -6px;
 	width: 281px;
 }
+
 #content div#featured ul li a.link {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 -166px;
 	color: #FDFDFB;
@@ -212,6 +250,7 @@ p a {
 	text-shadow: 1px 1px 0 #216B20;
 	width: 281px;
 }
+
 #content div#featured ul li p {
 	line-height: 21px;
 	margin-top: 15px;
@@ -219,12 +258,15 @@ p a {
 	text-align: left;
 	text-shadow: 1px 1px 0 #e8e6e7;
 }
+
 #content div {
 	margin: 0 auto;
 	padding: 0 0 40px;
 	width: 950px;
 }
-#content div div, #content div.section div.figure {
+
+#content div div,
+#content div.section div.figure {
 	background: url(../images/bg-image-higlight.jpg) no-repeat;
 	float: right;
 	margin-left: 45px;
@@ -232,6 +274,7 @@ p a {
 	position: relative;
 	width: 614px;
 }
+
 #content div div span {
 	background: url(../images/bg-image-right-shadow.jpg) no-repeat bottom right;
 	display: block;
@@ -241,6 +284,7 @@ p a {
 	right: 0;
 	width: 201px;
 }
+
 #content div p {
 	line-height: 21px;
 	margin: 0;
@@ -248,35 +292,42 @@ p a {
 	text-align: left;
 	text-shadow: 1px 1px 0 #F4DCB6;
 }
+
 #content div b {
 	color: #816221;
 	text-shadow: 1px 1px 0 #F4DCB6;
 }
+
 #content div b.first {
 	display: block;
 	padding-top: 33px;
 }
+
 #content div#blog h1 {
 	font-family: 'CarterOneRegular';
 	font-size: 18px;
 	margin: 0;
 	padding: 30px 0;
 }
+
 #content div#blog h1 a {
 	color: #73541b;
 	display: block;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #c8b57d;
 }
+
 #content div#blog h1 a:hover {
 	color: #2e5306;
 	text-shadow: 1px 1px 0 #f2fcd9;
 }
+
 #content div#blog p {
 	padding-bottom: 0;
 	margin: 0;
 	text-align: justify;
 }
+
 #content div h2 {
 	color: #73541B;
 	font-family: 'CarterOneRegular';
@@ -285,6 +336,7 @@ p a {
 	padding: 25px 0 10px;
 	text-shadow: 1px 1px 0 #C8B57D
 }
+
 #content div h3 {
 	color: #73541B;
 	font-family: 'CarterOneRegular';
@@ -293,14 +345,17 @@ p a {
 	padding: 25px 0 10px;
 	text-shadow: 1px 1px 0 #C8B57D
 }
+
 #content div h2 span {
 	font-size: 20px;
 	font-weight: normal;
 }
+
 #content div.section {
 	padding-bottom: 20px;
 	overflow: hidden;
 }
+
 #content div.section h4 {
 	color: #73541B;
 	font-family: 'CarterOneRegular';
@@ -309,12 +364,15 @@ p a {
 	padding-top: 30px;
 	text-shadow: 1px 1px 0 #C8B57D;
 }
+
 #content div.section div {
 	padding-top: 10px;
 }
-#content > div:nth-child(2) > p{
+
+#content>div:nth-child(2)>p {
 	font-size: 20px;
 }
+
 #content div.section div a {
 	background: url(../images/sprites-buttons.gif) no-repeat center -105px;
 	color: #ceb57d;
@@ -327,23 +385,31 @@ p a {
 	text-shadow: none;
 	width: 283px;
 }
-#content div.section div a.selected, #content div.section div a:hover {
+
+#content div.section div a.selected,
+#content div.section div a:hover {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 0;
 	color: #FDFDFB;
 	text-shadow: 1px 1px 0 #216B20;
 }
+
 #content div.section div.figure a {
 	background: none;
 	margin-top: 0;
 }
+
 #content div form {
 	margin: 0 auto;
 	width: 825px;
 }
+
 #content div table {
 	margin-top: 30px;
 }
-#content div form table tr td input#name, #content div form table tr td input#email, #content div form table tr td input#subject {
+
+#content div form table tr td input#name,
+#content div form table tr td input#email,
+#content div form table tr td input#subject {
 	background: url(../images/sprites-inputs.gif) no-repeat 0 -82px;
 	border: 0;
 	color: #FFFEFF;
@@ -354,9 +420,12 @@ p a {
 	padding: 0 5px;
 	width: 259px;
 }
-#content div form table tr td textarea#message, #content div form table tr td label.newsletter {
+
+#content div form table tr td textarea#message,
+#content div form table tr td label.newsletter {
 	margin-left: 20px;
 }
+
 #content div form table tr td input#send {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 -258px;
 	border: 0;
@@ -364,9 +433,11 @@ p a {
 	margin-left: 193px;
 	width: 96px;
 }
+
 #content div form table td {
 	padding: 10px 0
 }
+
 #content div table tr td textarea {
 	background: url(../images/text-area.jpg) no-repeat;
 	border: 0;
@@ -377,11 +448,14 @@ p a {
 	padding: 5px;
 	width: 715px;
 }
-#content div table tr td label span, #content div form div fieldset label span {
+
+#content div table tr td label span,
+#content div form div fieldset label span {
 	color: #674d1c;
 	font-family: Arial;
 	font-size: 12px;
 }
+
 #content div form div fieldset label span {
 	background: none;
 	display: inline;
@@ -389,23 +463,33 @@ p a {
 	position: static;
 	width: auto;
 }
+
 #content div table tr td label.email {
 	font-weight: bold;
 	margin-left: 115px;
 	padding-top: 5px;
 	vertical-align: sub;
 }
-#content div table tr td label input#newsletter, #content div table tr td label input#terms, #content div form div fieldset div label input#newsletter, #content div form div fieldset div label input#terms, #content div form div fieldset div label input#shipping, #content div form div fieldset div label input#saveas {
+
+#content div table tr td label input#newsletter,
+#content div table tr td label input#terms,
+#content div form div fieldset div label input#newsletter,
+#content div form div fieldset div label input#terms,
+#content div form div fieldset div label input#shipping,
+#content div form div fieldset div label input#saveas {
 	vertical-align: middle;
 }
+
 #content div table tr td.message {
 	vertical-align: top;
 }
+
 #content div form#register {
 	margin-top: 30px;
 	overflow: hidden;
 	width: auto;
 }
+
 #content div form div {
 	background: url(../images/bg-form.jpg) no-repeat;
 	float: left;
@@ -414,14 +498,17 @@ p a {
 	padding: 0;
 	width: 463px;
 }
+
 #content div form div.first {
 	margin-left: 0;
 }
+
 #content div form div fieldset {
 	border: 0;
 	margin: 20px auto;
 	width: 386px;
 }
+
 #content div form div fieldset input.inputtext {
 	background: url(../images/sprites-inputs.gif) no-repeat 0 -42px;
 	border: 0;
@@ -430,6 +517,7 @@ p a {
 	padding: 0 5px;
 	width: 376px;
 }
+
 #content div form div fieldset input#city {
 	background: url(../images/sprites-inputs.gif) no-repeat 0 0;
 	border: 0;
@@ -438,9 +526,11 @@ p a {
 	padding: 0 5px;
 	width: 172px;
 }
+
 #content div form div fieldset label.zipcode {
 	margin-left: 168px;
 }
+
 #content div form div fieldset input#zipcode {
 	background: url(../images/sprites-inputs.gif) no-repeat 0 0;
 	border: 0;
@@ -449,6 +539,7 @@ p a {
 	padding: 0 5px;
 	width: 172px;
 }
+
 #content div form div div {
 	background: none;
 	float: none;
@@ -457,9 +548,11 @@ p a {
 	margin-top: 33px;
 	width: auto;
 }
+
 #content div form div div label.terms {
 	padding-left: 15px;
 }
+
 #content div form input#createaccount {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 -60px;
 	border: 0;
@@ -468,16 +561,19 @@ p a {
 	margin-top: 30px;
 	width: 188px;
 }
+
 #footer {
 	background: url(../images/bg-footer.gif) repeat-x left top;
 	height: 240px;
 	width: 100%;
 }
+
 #footer a {
 	color: #dadada;
-	font-style:normal;
-	text-decoration:none;
+	font-style: normal;
+	text-decoration: none;
 }
+
 #footer div {
 	color: #dadada;
 	float: none;
@@ -487,21 +583,25 @@ p a {
 	padding-top: 10px;
 	width: 950px;
 }
+
 #footer div div {
 	float: left;
 	height: auto;
 	margin-left: 495px;
 	width: 226px;
 }
+
 #footer div div.first {
-	margin-left:  0;
+	margin-left: 0;
 }
+
 #footer div div p {
 	font-size: 12px;
 	line-height: 18px;
 	margin: 0;
 	text-align: left;
 }
+
 #footer div div h3 {
 	color: #fcfcfc;
 	font-family: 'CarterOneRegular';
@@ -510,6 +610,7 @@ p a {
 	height: 40;
 	margin-bottom: 10px;
 }
+
 #footer div div h3 a {
 	background: url(../images/maneco.jpg) no-repeat;
 	background-size: 140px;
@@ -518,21 +619,25 @@ p a {
 	height: 40px;
 	text-indent: -99999px;
 }
+
 #footer div div div {
 	height: auto;
 	margin-left: 0;
 	margin-top: 10px;
 }
+
 #footer div div div p {
 	font-size: 14px;
 	line-height: 25px;
 	margin: 0;
 }
+
 #footer div div div p span {
 	color: #383435;
 	display: inline;
 	font-style: italic;
 }
+
 #footer div div div a {
 	display: inline-block;
 	height: 63px;
@@ -540,24 +645,30 @@ p a {
 	padding-top: 10px;
 	width: 63px;
 }
+
 #footer div div div a.facebook {
 	background: url(../images/sprites-icon.gif) no-repeat 0 9px;
 	margin-left: 0;
 }
+
 #footer div div div a.twitter {
 	background: url(../images/sprites-icon.gif) no-repeat 0 -137px;
 }
+
 #footer div div div a.linked-in {
 	background: url(../images/sprites-icon.gif) no-repeat 0 -63px;
 }
+
 #footer div div form {
 	height: 40px;
 	margin-top: 25px;
 	overflow: hidden;
 }
+
 #footer div div form label {
 	float: left;
 }
+
 #footer div div form input#subscribe {
 	background: url(../images/sprites-inputs.gif) no-repeat 0 -131px;
 	border: 0;
@@ -569,6 +680,7 @@ p a {
 	padding: 0 5px;
 	width: 160px;
 }
+
 #footer div div form input.submit {
 	background: url(../images/sprites-buttons.gif) no-repeat 0 -218px;
 	border: 0;
@@ -577,36 +689,77 @@ p a {
 	margin-left: 12px;
 	width: 100px;
 }
- @font-face {
- font-family: 'AndikaRegular';
- src: url('../fonts/andika-r-webfont.eot');
- src: url('../fonts/andika-r-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/andika-r-webfont.woff') format('woff'),  url('../fonts/andika-r-webfont.ttf') format('truetype'),  url('../fonts/andika-r-webfont.svg#AndikaRegular') format('svg');
- font-weight: normal;
- font-style: normal;
-}
- @font-face {
- font-family: 'CarterOneRegular';
- src: url('../fonts/carterone-webfont.eot');
- src: url('../fonts/carterone-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/carterone-webfont.woff') format('woff'),  url('../fonts/carterone-webfont.ttf') format('truetype'),  url('../fonts/carterone-webfont.svg#CarterOneRegular') format('svg');
- font-weight: normal;
- font-style: normal;
+
+@font-face {
+	font-family: 'AndikaRegular';
+	src: url('../fonts/andika-r-webfont.eot');
+	src: url('../fonts/andika-r-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/andika-r-webfont.woff') format('woff'), url('../fonts/andika-r-webfont.ttf') format('truetype'), url('../fonts/andika-r-webfont.svg#AndikaRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-#sectionTwo div a{
+@font-face {
+	font-family: 'CarterOneRegular';
+	src: url('../fonts/carterone-webfont.eot');
+	src: url('../fonts/carterone-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/carterone-webfont.woff') format('woff'), url('../fonts/carterone-webfont.ttf') format('truetype'), url('../fonts/carterone-webfont.svg#CarterOneRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#sectionTwo div a {
 	margin-top: 10px;
 }
-div#featured ul li a img{
+
+div#featured ul li a img {
 	width: 276px;
 	height: 181px;
 }
+
 .nature-image {
 	width: 607px;
-    height: 306px;
+	height: 306px;
 }
-.paragraph{
+
+.paragraph {
 	font-weight: bold;
 }
+
 #sectionTwo div h4 {
 	margin-left: 216px;
 	width: 550px;
 }
+input {
+	text-align: center;
+    border-radius: 10px;
+    outline: 0;
+    background: #f8f4b4;
+    width: 30%;
+    height: 50px;
+    border: 0;
+    margin: 50px 0 15px;
+    padding: 15px;
+	margin-left: 165px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(197, 214, 16);
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+	margin-left: 166px;
+ }
+ #sectionTwo > div.figure > h3 {
+	padding-left: 160px;
+ }
+ #sectionTwo > div.figure > div {
+	width: 90%;
+ }
