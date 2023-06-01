@@ -131,9 +131,9 @@ p a {
 }
 
 #content div#section div p {
-	line-height: 21px;
+	line-height: 18px;
 	margin: 0;
-	padding: 15px 0 0;
+	padding: 0px 0 0;
 	text-align: justify;
 	text-shadow: 1px 1px 0 #f4dcb6;
 	width: auto;
