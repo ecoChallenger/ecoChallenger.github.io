@@ -18,7 +18,6 @@ const homeViewTemplate = () => html`
 <div id="content">
 <div id="section">
     <div>
-      <h1>Earth-friendly!</h1>
       <p>Ecological Manifesto - ManEco" Foundation was founded in 2018 on the basis of the Ecological Manifesto which is a global call for humanity to be more resource and energy efficient, sustainable and less wasteful. Its main mission is to raise awareness on various climate change related topics (climate change, just transition, circular economy, etc.) through a wide scope of activities. Main working areas of the organization are: research, public raising awareness events, educational workshops, consultancy, international cooperation, youth empowerment and green entrepreneurship.</p>
       <span> <a class="first" href="https://veskonik.github.io/CO2-calculator/">CO2 calculator</a> <a href="/guests">Be familiar</a> </span> </div>
     <div id="figure"> <a href=""><img src="images/little-girl-blowing-wind-mill.jpg" alt=""></a> <span></span> </div>
