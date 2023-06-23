@@ -3,9 +3,6 @@ import { guestsView } from "../views/guests.js";
 import { homeView } from "../views/home.js";
 import {page,render} from "./lib.js"
 
-
-console.log('it works')
-
 const root = document.querySelector('body');
 
 page(decorateContext);
